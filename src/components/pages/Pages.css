@@ -1,0 +1,145 @@
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+} */
+h2 {
+  color: #000;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: -5px 0 3rem 10rem; */
+  flex-wrap: wrap !important;
+  font-size: 2.5rem;
+  /* overflow: hidden; */
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.skill-container {
+  display: flex;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  color: #fff;
+  background-color: #353131;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Projects */
+.work {
+  text-align: center;
+}
+
+.work_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.work_img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  height: 26rem;
+  width: 20rem;
+  margin: 2rem;
+}
+
+.work_img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.work_img img:hover {
+  transform: scale(1.1);
+}
+
+.src {
+  height: 14rem;
+  width: 100%;
+}
+
+.proHead {
+  margin-top: 1rem;
+}
+
+.project {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 18px;
+}
+
+.color {
+  color: black;
+}
+.Code,
+.Live {
+  height: 2rem;
+  border-radius: 8px;
+  border: 1px solid #ffb000;
+  background-color: transparent;
+  outline: none;
+  transition: 1s;
+}
+
+.Live:hover {
+  background-color: #ffb000;
+}
+.Code:hover {
+  background-color: #ffb000;
+}
+/* Contact */
+.contact-deatails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer {
+  height: 12rem;
+  width: 100%;
+  background-color: #D7D7D7;
+  color: #000;
+}
+/* .footer > h2 {
+  
+} */
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid  #000; */
+  color: #ffb000;
+}
+.footer-icon > a {
+  padding: .5rem;
+  margin: .5rem;
+}
