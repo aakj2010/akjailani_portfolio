@@ -15,7 +15,6 @@ function Footer() {
                     <p style={{fontWeight:'500'}}> &#169; copyright Ak Jailani</p>
                 </div>
             </div>
-
         </>
     )
 }

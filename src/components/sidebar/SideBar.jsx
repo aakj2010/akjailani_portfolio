@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaBars, FaExpand, FaRegWindowClose, FaXbox, FaXRay } from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
+import { FaBars, FaRegWindowClose} from 'react-icons/fa'
 import './SideBar.css'
 
 function SideBar() {
