@@ -50,7 +50,7 @@ function Projects() {
             <form class="project">
               <a rel="noopener" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener" href="https://tourmaline-mandazi-02ffb1.netlify.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener" href="https://akj-gmail-c.netlify.app/" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
               <a rel="noopener" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
