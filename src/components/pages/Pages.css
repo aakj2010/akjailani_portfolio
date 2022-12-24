@@ -125,9 +125,13 @@ h2 {
   cursor: pointer;
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 12rem;
   width: 100%;
-  background-color: #D7D7D7;
+  background-color: #d7d7d7;
   color: #000;
 }
 /* .footer > h2 {
@@ -141,6 +145,11 @@ h2 {
   color: #ffb000;
 }
 .footer-icon > a {
-  padding: .5rem;
-  margin: .5rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+a > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

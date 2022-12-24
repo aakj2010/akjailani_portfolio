@@ -6,13 +6,13 @@ function Footer() {
     return (
         <>
             <div className='footer text-center'>
-                <h2 className='mt-5'>Ak Jailani</h2>
+                <h2 className=''>Ak Jailani</h2>
                 <div className='footer-icon'>
                     <a href="https://github.com/aakj2010" target="_blank"><FaGithub /></a>
                     <a href="https://www.linkedin.com/in/dev-jailani/" target="_blank"><FaLinkedinIn /></a>
                 </div>
                 <div>
-                    <p style={{fontWeight:'500'}}> &#169; copyright Ak Jailani</p>
+                    <p style={{fontWeight:'400'}}>Copyright © {new Date().getFullYear()} Ak Jailani</p>
                 </div>
             </div>
         </>
