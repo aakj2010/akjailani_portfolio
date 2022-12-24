@@ -18,7 +18,7 @@ function Projects() {
         </div>
         <div className='work_container container bd_grid '>
 
-          <div class="work_img col-md-6" >
+          <div class="work_img col-lg-4 col-md-6 col-sm-10" >
             <img src={Pinterest} alt="pinterest" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
