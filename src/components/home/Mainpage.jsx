@@ -14,7 +14,7 @@ function Mainpage() {
                         MERN Stack Devoloper
                     </p>
                     <button type="button" className="btn btn-outline-dark text-bold">
-                        <a href={require("../Asset/Resume.pdf")} className="resume" download="Resume">Resume</a>
+                        <a href="https://drive.google.com/file/d/14H_Q8zxOGn1nplzlJnjUVNl3cA7t5Z-b/view?usp=share_link" target="_blank" className="resume" >Resume</a>
                     </button>
                 </div>
                 <br />
