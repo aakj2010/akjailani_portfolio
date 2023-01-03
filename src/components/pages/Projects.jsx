@@ -27,11 +27,11 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener" href="https://superb-daifuku-4177a8.netlify.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener noreferrer" href="https://akj-pinterest-c.netlify.app/" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
             </form>
           </div>
@@ -48,11 +48,11 @@ function Projects() {
               Bootstrap
             </div>
             <form class="project">
-              <a rel="noopener" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener" href="https://akj-gmail-c.netlify.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener noreferrer" href="https://akj-gmail-c.netlify.app/" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
             </form>
           </div>
@@ -69,12 +69,13 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a  href="https://github.com/aakj2010/sofcfd" target="_blank"><button
+              <a  href="https://github.com/aakj2010/sofcfd" target="_blank" rel="noopener noreferrer"><button
                 className="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a href="https://superb-sprite-48c5a0.netlify.app" target="_blank"><button className="Live">
+              <a href="https://akj-sofc-c.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a href="https://github.com/aakj2010/sofcbd" target="_blank"><button
+              <a href="https://github.com/aakj2010/sofcbd" target="_blank" rel="noopener noreferrer"><button
                 className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+
             </form>
           </div>
 

@@ -14,7 +14,7 @@ function Mainpage() {
                         MERN Stack Devoloper
                     </p>
                     <button type="button" className="btn btn-outline-dark text-bold">
-                        <a href="https://drive.google.com/file/d/14H_Q8zxOGn1nplzlJnjUVNl3cA7t5Z-b/view?usp=share_link" target="_blank" className="resume" >Resume</a>
+                        <a rel="noopener noreferrer" href="https://drive.google.com/file/d/14H_Q8zxOGn1nplzlJnjUVNl3cA7t5Z-b/view?usp=share_link" target="_blank" className="resume" >Resume</a>
                     </button>
                 </div>
                 <br />
@@ -24,12 +24,12 @@ function Mainpage() {
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             <ul className="list-inline text-center">
                                 <li className="list-inline-item">
-                                    <a href="https://github.com/aakj2010" target="_blank" className='socialicons'>
+                                    <a rel="noopener noreferrer" href="https://github.com/aakj2010" target="_blank" className='socialicons'>
                                         <FaGithub />
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/dev-jailani/" target="_blank" className='socialicons' >
+                                    <a rel="noopener noreferrer" href="https://www.linkedin.com/in/dev-jailani/" target="_blank" className='socialicons' >
                                         <FaLinkedin />
                                     </a>
                                 </li>
