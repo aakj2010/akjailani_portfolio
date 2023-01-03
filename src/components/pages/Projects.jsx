@@ -69,13 +69,12 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a  href="https://github.com/aakj2010/sofcfd" target="_blank" rel="noopener noreferrer"><button
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcfd" target="_blank" ><button
                 className="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a href="https://akj-sofc-c.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="Live">
+              <a rel="noopener noreferrer" href="https://akj-sofc-c.netlify.app/" target="_blank"><button className="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a href="https://github.com/aakj2010/sofcbd" target="_blank" rel="noopener noreferrer"><button
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcbd" target="_blank"><button
                 className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
-
             </form>
           </div>
 
