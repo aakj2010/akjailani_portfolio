@@ -70,11 +70,11 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener" href="https://github.com/aakj2010/e_commerce" target="_blank"><button type="button"
+              <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/client" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener" href="https://e-commerce-gamma-lime.vercel.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener" href="http://13.233.163.63:8000" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener" href="https://github.com/aakj2010/e_commerce-server" target="_blank"><button type="button"
+              <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/backend" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
             </form>
           </div>
