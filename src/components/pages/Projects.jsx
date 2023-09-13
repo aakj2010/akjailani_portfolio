@@ -3,6 +3,7 @@ import Pin from '../Asset/Pin.jpg'
 import gmail from '../Asset/gmail.png'
 import sof from '../Asset/sof.png'
 import ecomm from '../Asset/ecomm.jpg'
+import behance from '../Asset/behance.png'
 import CodeSharpIcon from '@mui/icons-material/CodeSharp';
 import LinkSharpIcon from '@mui/icons-material/LinkSharp';
 import './Pages.css'
@@ -30,7 +31,7 @@ function Projects() {
             <form class="project">
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener noreferrer" href="https://pinterest-delta.vercel.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener noreferrer" href="https://akj-pinterest.netlify.app/" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
@@ -51,7 +52,7 @@ function Projects() {
             <form class="project">
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener noreferrer" href="https://akj-gmail-c.netlify.app/" target="_blank"><button type="button" class="Live">
+              <a rel="noopener noreferrer" href="https://akj-gmail.netlify.app/" target="_blank"><button type="button" class="Live">
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
@@ -76,6 +77,26 @@ function Projects() {
                 <LinkSharpIcon fontSize='small' /> Live</button></a>
               <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/backend" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+            </form>
+          </div>
+
+          <div class="work_img col-md-6">
+            <img src={behance} alt="stackoverflow" class="src" />
+            <div class="proHead">
+              <p class="color"><strong><em>
+                <h3>Behance Mobile Responsive App</h3>
+              </em></strong></p>
+            </div>
+            <div style={{ fontSize: '18px' }}>
+              Html/ Sass/ css
+            </div>
+            <form class="project">
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/fintech" target="_blank" ><button
+                className="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
+              <a rel="noopener noreferrer" href="https://akj-behance.netlify.app" target="_blank"><button type="button" class="Live">
+                <LinkSharpIcon fontSize='small' /> Live</button></a>
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/fintech" target="_blank"><button
+                className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
             </form>
           </div>
 
