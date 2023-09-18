@@ -2,14 +2,14 @@ import React from 'react'
 
 function About() {
     return (
-        <section id="about" className='container'>
+        <section id="about">
             <h2 className="text-center mt-5"><u>About</u></h2>
-            <div className="container">
+            <div className="container ">
                 <br />
                 <br />
                 <br />
-                <div className="row">
-                    <div className="col-lg-6 col-10">
+                <div className="row justify-content-center">
+                    <div className="col-lg-5 col-10">
                         <svg
                             id="fe80fb2b-bcaf-407e-919b-306adc32f78b"
                             data-name="Layer 1"
@@ -304,7 +304,7 @@ function About() {
                         </svg>
                     </div>
 
-                    <div className="col-lg-6 col-10">
+                    <div className="col-lg-5 col-10">
                         <br />
                         <h3 id="abouth3">
                             I am <span className="head_title-color"> Ak Jailani,</span>

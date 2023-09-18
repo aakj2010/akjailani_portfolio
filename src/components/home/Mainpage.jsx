@@ -3,6 +3,7 @@ import React from 'react'
 // import '../App.css';
 import './MainPage.css'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import ExpandMoreRoundedIcon from '@mui/icons-material/ExpandMoreRounded';
 
 function Mainpage() {
     return (
@@ -14,7 +15,7 @@ function Mainpage() {
                         MERN Stack Devoloper
                     </p>
                     <button type="button" className="btn btn-outline-dark text-bold">
-                        <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1CN0aPNbGkUixCiqEogcxsEubG46Um1ED/view?usp=share_link" target="_blank" className="resume" >Resume</a>
+                        <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1T8zfVUsotHU3vvt2Xt5EdmgVGTJ9fmSf/view" target="_blank" className="resume" >Resume</a>
                     </button>
                 </div>
                 <br />
@@ -39,7 +40,7 @@ function Mainpage() {
                 </div>
                 <br /><br /><br /><br /><br /><br />
                 <div className='d-flex justify-content-center'>
-                       <a href="#about"><i className="arrow down " ></i></a> 
+                    <a href="#about" className='down'><ExpandMoreRoundedIcon sx={{ fontSize: 60 }} /></a>
                 </div>
 
             </div>

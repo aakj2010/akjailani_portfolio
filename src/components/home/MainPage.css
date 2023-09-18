@@ -15,17 +15,18 @@ h1 {
   font-size: 3rem;
   color: #ffb000;
 }
-.arrow {
+/* .arrow {
   border: solid black;
   border-width: 0 1.5px 1.5px 0;
   display: inline-block;
   padding: 15px;
   cursor: pointer;
-}
+} */
 .down {
-  transition: 0.5s;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  animation-name: bouncing-icon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: center bottom;
 }
 #p1 {
   font-size: 1rem;
@@ -64,7 +65,7 @@ a:hover {
   color: #ffb000;
 }
 .socialicons {
-  padding: .2rem;
+  padding: 0.2rem;
   color: black;
   font-size: 1.25rem;
 }
@@ -74,4 +75,14 @@ a:hover {
 }
 .resume {
   text-decoration: none;
+}
+
+@keyframes bouncing-icon {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the bouncing height as needed */
+  }
 }
