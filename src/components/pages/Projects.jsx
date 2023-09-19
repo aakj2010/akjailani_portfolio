@@ -29,12 +29,12 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
               <a rel="noopener noreferrer" href="https://akj-pinterest.netlify.app/" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+                <LinkSharpIcon fontSize='small' /> View Live Site</button></a>
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
+                class="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
+              {/* <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
+                class="Code"><CodeSharpIcon fontSize='small' /> Backend Code</button></a> */}
             </form>
           </div>
 
@@ -50,12 +50,12 @@ function Projects() {
               Bootstrap
             </div>
             <form class="project">
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
               <a rel="noopener noreferrer" href="https://akj-gmail.netlify.app/" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> Live</button></a>
+                <LinkSharpIcon fontSize='small' /> View Live Site</button></a>
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+                class="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
+              {/* <a rel="noopener noreferrer" href="https://github.com/aakj2010/gmail_clone" target="_blank"><button type="button"
+                class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a> */}
             </form>
           </div>
 
@@ -71,12 +71,13 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/client" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
               <a rel="noopener" href="http://13.233.163.63:8000" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/backend" target="_blank"><button type="button"
-                class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+                <LinkSharpIcon fontSize='small' /> View Live Site</button></a>
+              <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/client" target="_blank"><button type="button"
+                class="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
+
+              {/* <a rel="noopener" href="https://github.com/aakj2010/Arima/tree/master/backend" target="_blank"><button type="button"
+                class="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a> */}
             </form>
           </div>
 
@@ -84,19 +85,20 @@ function Projects() {
             <img src={behance} alt="stackoverflow" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
-                <h3>Behance Mobile Responsive App</h3>
+                <h3>Fisdom Mobile Responsive App</h3>
               </em></strong></p>
             </div>
             <div style={{ fontSize: '18px' }}>
               Html/ Sass/ css
             </div>
             <form class="project">
+              <a rel="noopener noreferrer" href="https://akj-behance.netlify.app" target="_blank"><button type="button" class="Live" >
+                <LinkSharpIcon fontSize='small' />View Live Site</button></a>
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/fintech" target="_blank" ><button
-                className="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
-              <a rel="noopener noreferrer" href="https://akj-behance.netlify.app" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/fintech" target="_blank"><button
-                className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+                className="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
+
+              {/* <a rel="noopener noreferrer" href="https://github.com/aakj2010/fintech" target="_blank"><button
+                className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a> */}
             </form>
           </div>
 
@@ -112,12 +114,13 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcfd" target="_blank" ><button
-                className="Code"><CodeSharpIcon fontSize='small' /> Frontend</button></a>
               <a rel="noopener noreferrer" href="https://akj-sofc-c.netlify.app/" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> Live</button></a>
-              <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcbd" target="_blank"><button
-                className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a>
+                <LinkSharpIcon fontSize='small' /> View Live Site</button></a>
+              <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcfd" target="_blank" ><button
+                className="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
+
+              {/* <a rel="noopener noreferrer" href="https://github.com/aakj2010/sofcbd" target="_blank"><button
+                className="Code"><CodeSharpIcon fontSize='small' /> Backend</button></a> */}
             </form>
           </div>
 

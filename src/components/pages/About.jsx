@@ -311,14 +311,9 @@ function About() {
                         </h3>
                         <br />
                         <p id="aboutp">
-                            An aspiring developer with a degree in B.Sc., Computer science.
-                            I Started off my self-learning journey with online tutorials
-                            Google, YouTube, Learnmall, SoloLearn, etc and take a step
-                            further and Enrolled in the GUVI IIT MADRAS Fullstack
-                            developer Nanodegree Program which involved extensive
-                            programming and real world projects. Later, I learned MERN
-                            Stack From Guvi and built an Website using React JS, Node,
-                            Express Js, MongoDB.
+                            As an intern at Testsigma, I am focusing on React and Next.js web development, two of the most popular and powerful technologies for building modern, user-centric web applications. I am actively involved in creating and testing various features and functionalities, using best practices and standards for web development. I am also learning from a talented and supportive team of developers, testers, and engineers, who provide me with valuable feedback and guidance. <br />
+
+                            <p className='mt-3'> My passion for web development stems from my education background in computer science and information technology. I graduated from Madurai Kamaraj University with a Bachelor of Science in Computer Science, and completed a Full-Stack Developer course at GUVI in 2023, where I gained hands-on experience in web development using the MERN stack (MongoDB, Express, React, and Node.js). I have also acquired skills in responsive web design, HTML, and CSS, which enable me to create aesthetically pleasing and functional web pages. My goal is to enter the corporate realm and solve interesting and challenging problems using my web development skills and knowledge.</p>
                         </p>
                     </div>
                 </div>
