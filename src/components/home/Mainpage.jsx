@@ -10,8 +10,8 @@ function Mainpage() {
         <>
             <div id='homepage' className="homepage">
                 <div className='header'>
-                    <h1>Ak Jailani</h1>
-                    <p id='p1'>
+                    <h1 data-aos="fade-left" data-aos-duration="1000">Ak Jailani</h1>
+                    <p id='p1' data-aos="fade-right" data-aos-duration="1000">
                         MERN Stack Devoloper
                     </p>
                     <button type="button" className="btn btn-outline-dark text-bold">
@@ -24,12 +24,12 @@ function Mainpage() {
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-md-10 col-lg-8 col-xl-7">
                             <ul className="list-inline text-center">
-                                <li className="list-inline-item">
+                                <li className="list-inline-item" data-aos="fade-right" data-aos-duration="1000">
                                     <a rel="noopener noreferrer" href="https://github.com/aakj2010" target="_blank" className='socialicons'>
                                         <FaGithub />
                                     </a>
                                 </li>
-                                <li className="list-inline-item">
+                                <li className="list-inline-item" data-aos="fade-left" data-aos-duration="1000">
                                     <a rel="noopener noreferrer" href="https://www.linkedin.com/in/dev-jailani/" target="_blank" className='socialicons' >
                                         <FaLinkedin />
                                     </a>

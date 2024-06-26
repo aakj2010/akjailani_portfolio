@@ -9,7 +9,7 @@ function About() {
                 <br />
                 <br />
                 <div className="row justify-content-center">
-                    <div className="col-lg-5 col-10">
+                    <div className="col-lg-5 col-10" data-aos="fade-right" data-aos-duration="1000">
                         <svg
                             id="fe80fb2b-bcaf-407e-919b-306adc32f78b"
                             data-name="Layer 1"
@@ -304,7 +304,7 @@ function About() {
                         </svg>
                     </div>
 
-                    <div className="col-lg-5 col-10">
+                    <div className="col-lg-5 col-10" data-aos="fade-left" data-aos-duration="1000">
                         <br />
                         <h3 id="abouth3">
                             I am <span className="head_title-color"> Ak Jailani,</span>

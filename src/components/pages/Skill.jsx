@@ -122,69 +122,89 @@ function Skill() {
                     <br />
                     <br />
                     <div className="col-lg-12 col-10 skill-items">
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(148, 89, 21)" }}
                         >
                             HTML
                             <TiHtml5 color="orange" size={35} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(12, 58, 128)", gap: "3px" }}
                         >
                             CSS
                             <SiCss3 color="white" size={25} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(133, 134, 38)", gap: "3px" }}
                         >
                             JavaScript
                             <SiJavascript color="rgb(245, 221, 7)" size={25} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(87, 70, 105)", gap: "3px" }}
                         >
                             Bootstrap
                             <SiBootstrap color="#080135" size={30} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(28, 92, 97)", gap: "3px" }}
                         >
                             React
                             <SiReact color="#61DBFB" size={27} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(61, 21, 21)", gap: "3px" }}
                         >
                             Node
                             <SiNodedotjs color="#8f8f8f" size={30} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(28, 61, 21)", gap: "3px" }}
                         >
                             Express
                             <SiExpress color="#9da39f" size={30} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(48, 131, 32)", gap: "3px" }}
                         >
                             Mongodb
                             <SiMongodb color="#103d0e" size={30} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(185, 0, 0)", gap: "3px" }}
                         >
                             <IoLogoNpm color="#fffffff" size={50} />
                         </div>
-                        <div
+                        <div data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
                             className="skill-container"
                             style={{ backgroundColor: "rgb(133, 105, 105)", gap: "3px" }}
                         >

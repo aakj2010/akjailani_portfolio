@@ -18,7 +18,7 @@ function Projects() {
         </div>
         <div className='work_container container bd_grid '>
 
-          <div class="work_img col-lg-3 col-md-4 col-sm-10" >
+          <div class="work_img col-lg-3 col-md-4 col-sm-10" data-aos="fade-down" data-aos-duration="1000">
             <img src={Pin} alt="pinterest" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
@@ -41,7 +41,7 @@ function Projects() {
 
          
 
-          <div class="work_img col-md-6">
+          <div class="work_img col-md-6" data-aos="fade-down" data-aos-duration="1000">
             <img src={gmail} alt="gmail" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
@@ -82,7 +82,7 @@ function Projects() {
             </form>
           </div> */}
 
-          <div class="work_img col-md-6">
+          <div class="work_img col-md-6" data-aos="fade-down" data-aos-duration="1000">
             <img src={behance} alt="stackoverflow" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
@@ -103,7 +103,7 @@ function Projects() {
             </form>
           </div>
 
-          <div class="work_img col-md-6">
+          <div class="work_img col-md-6" data-aos="fade-up" data-aos-duration="1000">
             <img src={sof} alt="stackoverflow" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
@@ -125,7 +125,7 @@ function Projects() {
             </form>
           </div>
 
-          <div class="work_img col-lg-3 col-md-4 col-sm-10" >
+          <div class="work_img col-lg-3 col-md-4 col-sm-10" data-aos="fade-up" data-aos-duration="1000">
             <img src={comment} alt="Comments" class="src" />
             <div class="proHead">
               <p class="color"><strong><em>
