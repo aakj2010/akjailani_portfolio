@@ -30,8 +30,8 @@ function Projects() {
               MongoDB/Express/Nodejs
             </div>
             <form class="project">
-              <a rel="noopener noreferrer" href="https://akj-pinterest.netlify.app/" target="_blank"><button type="button" class="Live">
-                <LinkSharpIcon fontSize='small' /> View Live Site</button></a>
+              <a rel="noopener noreferrer" href="https://pinterest-delta.vercel.app/" target="_blank"><button type="button" class="Live">
+                <LinkSharpIcon fontSize='small' />View Live Site</button></a>
               <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest" target="_blank"><button type="button"
                 class="Code"><CodeSharpIcon fontSize='small' />Github Code</button></a>
               {/* <a rel="noopener noreferrer" href="https://github.com/aakj2010/pinterest-server" target="_blank"><button type="button"
