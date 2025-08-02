@@ -14,8 +14,8 @@ function Mainpage() {
                     <p id='p1' data-aos="fade-right" data-aos-duration="1000">
                         MERN Stack Devoloper
                     </p>
-                    <button type="button" className="btn btn-outline-dark text-bold">
-                        <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1T8zfVUsotHU3vvt2Xt5EdmgVGTJ9fmSf/view" target="_blank" className="resume" >Resume</a>
+                    <button type="button" className="btn btn-outline-dark text-bold group">
+                        <a rel="noopener noreferrer" href="https://drive.google.com/file/d/19pf4F-Fcc7PEwWFWtLxDxOe4yCwlQc-4/view?usp=drive_link" target="_blank" className="resume group-hover:text-[#ffb000]" >Resume</a>
                     </button>
                 </div>
                 <br />
